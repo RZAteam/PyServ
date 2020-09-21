@@ -1,0 +1,7 @@
+USE RZAPlatform;
+DROP TABLE Prikazy;
+CREATE  TABLE Prikazy
+(
+    Id    INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    Path VARCHAR(255)
+)
